@@ -1,0 +1,20 @@
+extends base.pug
+
+block scripts
+    scripts
+        include ../static/index.js
+
+block style
+    style
+        include ../static/style.css 
+        include ../static/outdoor.css
+        include ../static/outdoor-response.css
+
+block content
+    section#sec-1
+        h1#header OUTDOOR PHOTOS
+        p#para1 Some of our best outdoor photos are:
+        img.out-img(src="../static/ak studio images/all images/candid9.JPG", alt="Error Not Found")
+        img.out-img(src="../static/ak studio images/all images/candid9.JPG", alt="Error Not Found")
+        img.out-img(src="../static/ak studio images/candid photos/candid5.jpeg", alt="Error Not Found")
+        img.out-img(src="../static/ak studio images/candid photos/candid1.jpeg", alt="Error Not Found")

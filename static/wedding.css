@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+#WeddingPhoto{
+    background: url('../static/ak\ studio\ images/wedding/bride/wedding1.jpeg');
+}
+#wedh1{
+    justify-content: center;
+    text-align: center;
+}
+.WeddingBox{
+    width: 27%;
+    border: 5px solid grey;
+    border-radius: 6%;
+    display: inline-block;
+    margin: 14px 27px;
+}
+.WeddingBox h2{
+    text-align: center;
+    color: gold;
+}
+.WeddingBox h2 a{
+    text-decoration: none;
+    list-style: none;
+    color: gold;
+}
+.WeddingBox h2 a:hover{
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+}
+.WeddingBox p{
+    color: white;
+}
+.wedding-img img{
+    width: 151px;
+    margin: 0px 106px;
+    padding: 15px 0px;
+}
+.wedding-content{
+    text-align: center;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,25 @@
+extends base.pug
+
+block scripts
+    scripts(src="../static/index.js")
+block style
+        style
+            include ../static/style.css
+            include ../static/babyshoot.css
+
+block content
+    section#baycontent
+        div.card
+            h1.card-h1 #[a(href ='/baby-photos') Normal Photos]
+            div.img
+                img(src="../static/baby.jpg", alt="Error: Network Error")
+            div.para
+                p Here You will Get the Photos of the children of small age. From 1-10.
+                | Enjoy.
+        div.card
+            h1.card-h1 #[a(href='/pre-birthday-photos') Pre-Birthday Photos]
+            div.img
+                img(src="../static/baby.jpg", alt="Error: Network Error")
+            div.para
+                p Here You will Get the Photos of the children of small age. From 1-10.
+                | Enjoy.

@@ -1,0 +1,29 @@
+extends base.pug
+
+block scripts
+    scripts(src="../static/index.js")
+block style
+    style
+        include ../static/style.css
+        include ../static/contactus.css
+        include ../static/contactus-response.css
+block content
+    h2#header1 Contact Us
+    h2#SocialMedia Social Media
+    section.ctus
+        div.contactcard
+                h3 WhatsApp  
+                p.para-Whatsapp To contact though Whatsapp You can use the given contact information:
+                    | #[a(href="www.Youtube.com") 790388564625]
+        div.contactcard
+                h3 Facebook
+                p.para-Whatsapp To Contact Through FaceBook Go to the Profile:
+                    | #[a(href="www.Youtube.com") Ak Digital Studio]
+        div.contactcard
+                h3 Instagram
+                p.para-Whatsapp To Contact Through Instagram Go to the Profile:
+                    | #[a(href="www.Youtube.com") Ak Digital Studio]
+        div.contactcard
+                h3 Youtube
+                p.para-Whatsapp To See Our Short Films And Many More:
+                    | #[a(href="www.Youtube.com") Ak Digital Studio] 

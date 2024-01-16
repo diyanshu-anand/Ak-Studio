@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.card{
+    width: 24%;
+    height: 209px;
+    display: inline-block;
+    border: 4px solid red;
+    border-radius: 10px;
+    margin: 74px 25px;
+}
+.card-h1{
+    text-align: center;
+}
+.card-h1 a{
+    text-decoration: none;
+    color: black;
+}
+.card-h1 a:hover{
+    color: blue;
+    font-weight: bold;
+}
+.img{
+    height: 128px;
+    text-align: center;
+}
+.img img{
+    width: 166px;
+}

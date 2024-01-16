@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+#eng{
+    background: url('../static/ak studio images/engagements/engagement4.jpeg');
+    height:2000px;
+}
+#eng img{
+    width: 20%;
+    padding: 0px 10px;
+    border-radius: 20%;
+    margin-top:39px ;
+}

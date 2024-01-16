@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+#baycontent{
+    height: 1494px;
+    display: flex;
+    flex-direction: inherit;
+    display: inline-block;
+    margin: 14px 27px;
+}
+/* .card{
+    border: 2px solid red;
+    width: 100%;
+    margin: 119px 10px;
+} */
+#baycontent img{
+    margin: 69px 0px;
+    width: 29%;
+    border-radius: 20%;
+    padding: 0px 20px
+}

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+#PhotoSections{
+    margin: 62px 6px;
+    background: url('../static/ak\ studio\ images/baby/baby.JPG');
+    height: 2000px;
+    margin-top:48px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+#PhotoSections h2{
+    text-align: center;
+    font-size: 93px;
+    display: block;
+    color: white;
+
+}
+.p-card{
+    width: 26%;
+    border: 2px solid red;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 0px 20px;
+    margin: 10px 12px;
+}
+.p-card h3{
+    text-align: center;
+}
+.p-card h3 a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+.p-card h3 a:hover{
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+.card-img img {
+    height: 166px;
+    width: 92%;
+    border-radius: 20px;
+    margin: 0px 14px;
+}

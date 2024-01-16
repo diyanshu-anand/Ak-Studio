@@ -1,0 +1,80 @@
+doctype html
+head
+        title AK STUDIO
+        style
+            include ../static/style.css
+body
+    nav#navbar.top
+        ul
+            div.logo
+                img(src="../static/logo.png", alt="Error")
+                |AKDS
+            li #[a(href = '/') Home]
+            li #[a(href = '/') Address] 
+            li #[a(href = '/photos') Photos]
+            li #[a(href = '/contact') Contact Us]
+    
+    section#introSections
+        div Welcome To AK DIGITAL STUDIO
+        div.small A Place for Best Photos
+    section#sponsersSections
+        h2 Our Works
+        div.card
+            h3 #[a(href = '/') Wedding Photoshoot]
+            div.card-box
+                div.card-img
+                    img(src="../static/wedding2.jpg", alt="Error")
+            div.card-content
+                p This is bEST
+            //- img(src="../static/wedding.jpg", alt="../static/wedding2.jpg")-//
+                
+        
+        div.card
+            h3 #[a(href = '/') Youtube Videos]
+            div.card-box
+                div.card-img
+                    img(src="../static/baby2.jpg", alt="Error")
+            div.card-content
+                p This is bEST
+            //- img(src="../static/wedding2.jpg", alt="")
+        div.card
+            h3 #[a(href = '/') Family Photos]
+            div.card-box
+                div.card-img
+                    img(src="../static/baby.jpg", alt="Error")
+            div.card-content
+                p This is bEST
+            //- img(src="../static/baby.jpg", alt="")
+        
+        div.card
+            h3 #[a(href = '/') Creating Short Movies]
+            div.card-box
+                div.card-img
+                    img(src="../static/images (1.jpg", alt="Error")
+            div.card-content
+                p This is bEST
+            //- img(src="../static/baby2.jpg", alt="")
+        
+        
+        div.card
+            h3 #[a(href = '/') Passport Size Photo]
+            div.card-box
+                div.card-img
+                    img(src="../static/images.jpg", alt="Error")
+            div.card-content
+                p This is bEST
+        
+        
+        div.card
+            h3 #[a(href = '/') And Many more...]
+            div.card-box
+                div.card-img
+                    img(src="../static/wedding2.jpg", alt="Error")
+            div.card-content
+                p This is bEST
+    footer#footer
+            p  Copyright Belongs to Ak Digital Studio. | All Rights Rserved.   
+
+        
+    script
+        include ../static/index.js

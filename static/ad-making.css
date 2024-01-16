@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.ad-sec{
+    height: 413px;
+    margin-top: 49px;
+    text-align: center;
+}
+.ad-sec p{
+    text-align: center;
+    font-size: 111px;
+    font-style: italic;
+    font-weight: bold;
+}

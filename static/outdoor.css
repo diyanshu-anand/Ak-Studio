@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+#sec-1{
+    background: url('../static/ak studio images/all images/candid9.JPG');
+}
+#header{
+    margin: 48px 349px;
+    text-align: end;
+    height: 0px;
+    width: 43%;
+    font-size: 55px;
+    /* text-align: end; */
+    font-style: italic;
+    color:aqua;
+
+}
+#para1{
+    color: aqua;
+    margin: 69px 0px;
+    text-align: center;
+    font-size: 35px;
+}
+.out-img{
+    width: 20%;
+    padding: 29px 29px;
+    border-radius: 21%;
+    /* border: 2px solid red; */
+    padding: 75px 84px;
+}

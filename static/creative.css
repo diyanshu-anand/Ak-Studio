@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.creative-content{
+    height: 1527px;
+    margin-top: 49px;
+}
+.creative-content img{
+    width: 20%;
+    padding: 20px 33px;
+    border-radius: 20px;
+}

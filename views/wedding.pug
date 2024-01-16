@@ -1,0 +1,46 @@
+extends base.pug
+block scripts
+    scripts(src="../static/index.js")
+block style
+    style
+        include ../static/style.css
+        include ../static/wedding.css
+block content
+    h1#wedh1 Wedding Photoshot
+    section#WeddingPhoto
+        div.WeddingBox
+            h2 #[a(href="/engagement") Engagement Photoshoot]
+            div.wedding-img
+                img(src="../static/ak\ studio\ images/wedding/wedding2.jpeg", alt="Error")
+            div.wedding-content
+                p A photoshoot of the wedding in the raipur.
+        div.WeddingBox
+            h2 #[a(href="/") Post-Wedding Photoshoot]
+            div.wedding-img
+                img(src="../static/ak\ studio\ images/wedding/candid4.jpeg", alt="Error")
+            div.wedding-content
+                p A photoshoot of the wedding in the raipur.
+        div.WeddingBox
+            h2 #[a(href="") Pre-Wedding Photoshoot]
+            div.wedding-img
+                img(src="../static/ak\ studio\ images/wedding/bride/wedding1.jpeg", alt="Error")
+            div.wedding-content
+                p A photoshoot of the wedding in the raipur.
+        div.WeddingBox
+            h2 #[a(href = "/bridephotos") Bride Shoot]
+            div.wedding-img
+                img(src="../static/ak\ studio\ images/wedding/bride/wedding1.jpeg", alt="Error")
+            div.wedding-content
+                p A photoshoot of the wedding in the raipur.
+        div.WeddingBox
+            h2 The Most Adorable Photoshoot
+            div.wedding-img
+                img(src="../static/ak\ studio\ images/wedding/wedding2.jpeg", alt="Error")
+            div.wedding-content
+                p A photoshoot of the wedding in the raipur.
+        div.WeddingBox
+            h2 The Most Adorable Photoshoot
+            div.wedding-img
+                img(src="../static/ak\ studio\ images/wedding/wedding2.jpeg", alt="Error")
+            div.wedding-content
+                p A photoshoot of the wedding in the raipur.

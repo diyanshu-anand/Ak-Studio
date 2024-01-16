@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.drone-content{
+    height: 500px;
+    margin-top: 49px;
+    text-align: center;
+}
+.drone-content p{
+    font-size: 103px;
+    justify-content: center;
+    font-weight: bold;
+    font-style: italic;
+}

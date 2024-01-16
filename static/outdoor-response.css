@@ -1,0 +1,14 @@
+@media only screen and (max-width:1167px){
+    #header{
+        font-size: 40px;
+        text-align: center;
+        font-style: italic;
+    }
+    #para1{
+        font-size: 25px;
+        font-style: italic;
+    }
+    .out-img{
+        padding: 11px 69px;
+    }
+}

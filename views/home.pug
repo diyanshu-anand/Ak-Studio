@@ -1,0 +1,125 @@
+extends base.pug
+
+block scripts
+    scripts(src="../static/index.js")
+block style
+        style
+            include ../static/style.css
+            include ../static/style-responsive.css
+block content
+    section#introSections
+        div.head  Welcome To AK STUDIO
+        div.small A Place for Best Photos
+    section#sponsersSections
+        h2 Our Works
+        div.card
+            h3 #[a(href = '/wedding') Wedding Photoshoot]
+            div.card-box
+                div.card-img
+                    img(src="../static/ak\ studio\ images/wedding/wedding2.jpeg",alt="Error")
+            div.card-content
+                p Have a look at Wedding photos
+            //- img(src="../static/wedding.jpg", alt="../static/wedding2.jpg")-//
+
+
+        div.card
+            h3 #[a(href = '/Babyshoot') Baby Shoot]
+            div.card-box
+                div.card-img
+
+                    img(src="../static/ak\ studio\ images/baby/baby1.jpg", alt="Error")
+            div.card-content
+                p Have a look at the cuteness of the baby.
+            //- img(src="../static/wedding2.jpg", alt="")
+        div.card
+            h3 #[a(href = '/maternity-shot') Maternity Shoot]
+            div.card-box
+                div.card-img
+                    img(src="../static/baby.jpg", alt="Error")
+            div.card-content
+                p |How is it?
+            //- img(src="../static/baby.jpg", alt="")
+
+        div.card-outdoor
+            h3 #[a(href = '/outdoor-photos') Outdoor Photoshoot]
+            div.card-box-outdoor
+                div.card-img-outdoor
+                    img(src="../static/ak\ studio\ images/candid photos/candid5.jpeg", alt="Error")
+            div.card-content-outdoor
+                p Let's Have a great fun outside.
+            //- img(src="../static/baby2.jpg", alt="")
+
+
+        div.card-cinematography
+            h3 #[a(href = '/cinemaphotos') Cinematography]
+            div.card-cinematography-box
+                div.card-cinematography-img
+                    img(src="../static/ak digital studio Poster thumb.jpg", alt="Error")
+            div.card-cinematography-content
+                p Let's Shoot some films.
+
+
+        div.card-candid
+            h3 #[a(href = '/candid-photos') Candid]
+            div.card-candid-box
+                div.card-candid-img
+                    img(src="../static/ak\ studio\ images/all images/candid.jpg", alt="Error")
+            div.card-candid-content
+                p
+                    |Have a look at some.
+
+        div.card
+            h3 #[a(href = '/drone-shoot') Drone Shoot]
+            div.card-box
+                div.card-img
+                    img(src="../static/ak\ studio\ images/wedding/bride/wedding1.jpeg", alt="Error")
+            div.card-content
+                p Wanna have it?
+
+        div.card
+            h3 #[a(href = '/modelling') Modelling Shoot]
+            div.card-box
+                div.card-img
+                    img(src="../static/ak studio images/all images/candid.jpeg", alt="Error")
+            div.card-content
+                p Make yourself Upcoming best model.
+
+        div.card-ad
+            h3 #[a(href = '/ad-making') Ad-Making]
+            div.card-ad-box
+                 div.card-ad-img
+                    img(src="../static/ak digital studio Poster thumb.jpg", alt="Error")
+            div.card-ad-content
+                p Let's shoot some of the best ads.
+
+        div.card-product
+            h3 #[a(href = '/') Product Photoshoot]
+            div.card-product-box
+                div.card-product-img
+                    img(src="../static/ak digital studio Poster thumb.jpg", alt="Error")
+            div.card-product-img
+                p Let's get some click for product.
+
+        div.card-short
+            h3 #[a(href = '/cinemaphotos') Short Film]
+            div.card-short-box
+                div.card-short-img
+                    img(src="../static/ak digital studio Poster thumb.jpg", alt="Error")
+            div.card-short-content
+                p Let's Shoot.
+
+        div.card
+            h3 #[a(href = '/cinemaphotos') Video Editing]
+            div.card-box
+                div.card-img
+                    img(src="../static/ak\ studio\ images/all images/candid10.jpg", alt="Error")
+            div.card-content
+                p  A place where you can edit your videoes.
+
+        div.card
+            h3 #[a(href = '/creative-photos') Creative Photos]
+            div.card-box
+                div.card-img
+                    img(src="../static/ak\ studio\ images/all images/baby10.jpg", alt="Error")
+            div.card-content
+                p Photos having their creativity at its best.

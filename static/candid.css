@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: 0;
+}
+#sec{
+    background: url('../static/ak\ studio\ images/all images/candid.jpeg');
+    height: fit-content;
+}
+#header{
+    margin: 49px 349px;
+    text-align: center;
+    height: 0px;
+    width: 43%;
+    font-size: 40px;
+    font-style: italic;
+}
+.para{
+    text-align: center;
+    margin: 37px 0px;
+    font-size: 21px;
+    font-weight: bold;
+    font-style: italic;
+}
+#sec img{
+    width: 30%;
+    /* border: 2px solid blue; */
+    border-radius: 20%;
+    padding: 7px 115px;
+}
+.an-img{
+    border-radius: 50%;
+    height: 481px;
+    width: 465px;
+}
+#sec-2{
+    background: url('../static/ak studio images/candid photos/candid2.jpeg');
+}
+#sec-2 img{
+    width: 30%;
+    /* border: 2px solid blue; */
+    border-radius: 20%;
+    padding: 7px 115px;
+}
